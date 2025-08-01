@@ -32,11 +32,11 @@ def render_menu_section(title, emoji, menu_dict):
 
 # --- Menu Data ---
 antipasti_menu = {
-    "Tagliere di Salumi e Formaggi": {"price": "€14", "description": "Cuts Meat and Cheeses"},
+    "Tagliere di Salumi e Formaggi": {"price": "€15", "description": "Cuts Meat and Cheeses"},
     "Polpo all'Aglio": {"price": "€18", "description": "Octopus in Garlic"},
-    "Impepata di Cozze": {"price": "€14", "description": "Mussels Sauté"},
+    "Impepata di Cozze": {"price": "€16", "description": "Mussels Sauté"},
     "Sauté di Cozze e Vongole": {"price": "€18", "description": "Mussels and Clams Sauté"},
-    "Bruschetta di Bufala": {"price": "€8", "description": "Bruschetta with Bufala"}
+    "Bruschetta di Bufala": {"price": "€10", "description": "Bruschetta with Bufala"}
 }
 
 pasta_menu = {
@@ -47,8 +47,8 @@ pasta_menu = {
 
 risotti_menu = {
     "Risotto ai Frutti di Mare": {"price": "€18", "description": "Seafood risotto"},
-    "Risotto con Manzo e Funghi e Crema di Tartufo": {"price": "€15", "description": "Beef, mushrooms & truffle cream"},
-    "Risotto Salmone ed Asparagi": {"price": "€15", "description": "Salmon and asparagus"}
+    "Risotto Funghi e Crema di Tartufo": {"price": "€15", "description": "Beef, mushrooms & truffle cream"},
+    "Risotto Salmone ed Asparagi": {"price": "€16", "description": "Salmon and asparagus"}
 }
 
 pesce_menu = {
@@ -56,9 +56,9 @@ pesce_menu = {
     "Orata alla Griglia": {"price": "€17.50", "description": "Grilled sea bream"},
     "Orata alla Mediterranea": {"price": "€18.50", "description": "Whole grilled sea bream"},
     "Filetto di crata e vellutata di Asparagi": {"price": "€18.50", "description": "fillet sea-bream Asparagus velvet"},
-    "Gamberoni Reali Speziati": {"price": "€16.50", "description": "Grilled king prawns Flavoring"},
+    "Gamberoni Reali Speziati": {"price": "€18", "description": "Grilled king prawns Flavoring"},
     "Salmone al Cartoccio": {"price": "€18.50", "description": "Baked salmon"},
-    "Pesce Spada alla Sarmoriglio": {"price": "€16.50", "description": "Grilled swordfish"},
+    "Pesce Spada alla Sarmoriglio": {"price": "€18", "description": "Grilled swordfish"},
     "Frittura Mista": {"price": "€20", "description": "Mixed fried seafood"}
 }
 
