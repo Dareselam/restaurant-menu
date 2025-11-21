@@ -106,7 +106,7 @@ render_menu_section("Drinks", "🥤", drinks_menu)
 render_menu_section("Beers", "🍺", beers_menu)
 render_menu_section("Cane Nero Craft Beers", "🍻", cane_nero_beers)
 
-# --- Footer Info ---
+
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("""
     <div style="background-color:#f6f6f6; padding:15px; border-radius:10px;">
@@ -118,3 +118,4 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.info("💬 All Fish main courses are served with mixed salad.")
+
